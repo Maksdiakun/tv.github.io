@@ -3117,6 +3117,21 @@ td {
   100% {
     opacity: 0.1; } }
 
+.news .container .slider-content .slick-arrow {
+  background-size: 15px; }
+
+.payment .banner_type1 {
+  background-image: url("../images/pbg.png"); }
+  .payment .banner_type1 .container {
+    display: flex;
+    align-items: center; }
+    .payment .banner_type1 .container h1 {
+      margin-left: 30px;
+      max-width: 900px; }
+
+.news_ban {
+  background-image: url("../images/newbg.png"); }
+
 @media (max-width: 1599.9px) {
   .first_view, .main_bg_img {
     height: 1000px; }
