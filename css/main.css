@@ -3132,7 +3132,134 @@ td {
 .news_ban {
   background-image: url("../images/newbg.png"); }
 
+.not_found .messenger {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 30vw; }
+  .not_found .messenger img {
+    width: 100%; }
+
+.not_found {
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+  .not_found .container {
+    display: flex;
+    justify-content: center; }
+
+.not_found .quote {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  max-width: 712px;
+  margin-top: 9px;
+  /* синій */
+  color: #054E9C; }
+
+.not_found .more_btn {
+  display: flex;
+  max-width: 100%;
+  width: 287px;
+  height: 55px;
+  background: #054E9C;
+  box-shadow: 6px 6px 40px rgba(0, 55, 114, 0.35);
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: 50px; }
+
+.not_found .content {
+  position: relative;
+  z-index: 5; }
+
+#exampleModalCenter .modal-content {
+  background: #FFFFFF;
+  border-radius: 40px;
+  border: none;
+  padding: 80px; }
+
+.modal_form_title {
+  font-size: 70px;
+  line-height: 82px;
+  text-transform: uppercase;
+  color: #054E9C;
+  margin-bottom: 20px; }
+
+.modal_form_dsc {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgba(5, 78, 156, 0.8);
+  margin-bottom: 20px; }
+
+.modal_form input:not([type=submit]) {
+  display: block;
+  width: 100%;
+  height: 55px;
+  box-shadow: 6px 6px 40px rgba(0, 55, 114, 0.35);
+  border-radius: 40px;
+  padding-left: 20px;
+  border: none;
+  margin-bottom: 30px;
+  background: #FFFFFF; }
+
+.modal_form textarea {
+  width: 100%;
+  height: 200px;
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 40px rgba(0, 55, 114, 0.35);
+  border-radius: 40px;
+  padding: 10px 30px;
+  border: none; }
+
+.modal_form input[type=submit] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #054E9C;
+  box-shadow: 6px 6px 40px rgba(0, 55, 114, 0.35);
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 55px;
+  width: 185px;
+  margin-top: 30px; }
+
+#exampleModalCenter .modal-content {
+  background-image: url("../images/lll.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: bottom right; }
+
+.mod_close {
+  position: absolute;
+  right: 30px;
+  top: 20px; }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 760px; } }
+
 @media (max-width: 1599.9px) {
+  #exampleModalCenter .modal-content {
+    padding: 50px; }
+  .modal_form_title {
+    font-size: 50px;
+    line-height: 130%; }
+  .modal_form_dsc {
+    font-size: 18px;
+    line-height: 130%; }
   .first_view, .main_bg_img {
     height: 1000px; }
   .new_services .cards_wrap {
@@ -3163,6 +3290,16 @@ td {
     padding: 80px 0; } }
 
 @media (max-width: 1450px) {
+  .not_found .messenger {
+    width: 25vw; }
+  .not_found .content .text .title {
+    font-size: 50px;
+    line-height: 130%; }
+  .not_found .content .text .line {
+    margin-top: 20px; }
+  .not_found .quote {
+    font-size: 18px;
+    line-height: 130%; }
   .row .cards .link {
     font-size: 20px; }
   .services_slider .container .slider_services {
@@ -3211,6 +3348,8 @@ td {
     padding-bottom: 80px; } }
 
 @media (max-width: 991.9px) {
+  .not_found .quote {
+    max-width: 80vw; }
   .sm_news {
     flex-wrap: wrap; }
     .sm_news_text {
@@ -3253,6 +3392,16 @@ td {
     margin-top: 20px !important; } }
 
 @media (max-width: 767.9px) {
+  .modal_form_title {
+    font-size: 40px;
+    margin-bottom: 15px; }
+  .modal_form_dsc {
+    font-size: 15px; }
+  .modal_form input:not([type=submit]) {
+    height: 45px;
+    margin-bottom: 15px; }
+  .modal_form textarea {
+    height: 150px; }
   .table_1_row, .table_1_header {
     width: 700px; }
   .table_1 {
@@ -3285,6 +3434,26 @@ td {
     order: 1; } }
 
 @media (max-width: 575.9px) {
+  .mod_close {
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 20px; }
+    .mod_close img {
+      width: 100%; }
+  #exampleModalCenter .modal-content {
+    padding: 30px;
+    padding-top: 40px; }
+  .modal_form_title {
+    font-size: 25px; }
+  .modal_form_dsc {
+    font-size: 13px; }
+  .modal_form textarea {
+    height: 120px; }
+  .not_found .content .text .title {
+    font-size: 40px; }
+  .not_found .quote {
+    font-size: 16px; }
   .services_hero .container .content .text .title {
     font-size: 30px; }
   .services_hero .container .content .text .line {
@@ -3333,3 +3502,6 @@ td {
     right: -10px; }
   .slick-prev {
     left: -10px; } }
+
+.modal {
+  z-index: 999999; }
