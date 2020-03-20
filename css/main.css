@@ -3505,3 +3505,13 @@ td {
 
 .modal {
   z-index: 999999; }
+
+*:focus, *:active {
+  outline: none; }
+
+.banner_type_2 .butt:hover {
+  box-shadow: 6px 6px 40px rgba(255, 196, 0, 0.35) !important;
+  background: #ffc400 !important; }
+
+.mod_close, .butt {
+  cursor: pointer; }

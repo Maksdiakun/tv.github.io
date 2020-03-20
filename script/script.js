@@ -32,3 +32,4 @@ $('.slider-content').slick({
         // instead of a settings object
     ]
 });
+$('.phone_mask').mask('00000000000');
